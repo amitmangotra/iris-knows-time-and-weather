@@ -16,7 +16,7 @@ const serviceRegistry = service.get('serviceRegistry');
 const rtm = slackClient.init(slackToken, slackLogLevel, witClient, serviceRegistry);
 rtm.start();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 slackClient.addAuthenticatedHandler(rtm, () => server.listen(PORT));
 
