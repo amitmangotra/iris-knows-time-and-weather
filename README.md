@@ -18,6 +18,7 @@ natural language processing), Real Time Messaging (RTM) API of Slack, Google’s
 * Create a user-defined bot in Slack and name it `iris` and connect it to your slack workspace.
 * In Wit.ai, configure time and weather intents for training `iris`.
 * Open the folder where you cloned the repo and open iris, iris-time and iris-weather in three separate windows of your favorite IDE.
+* Make sure you have NodeJS and npm installed globally.
 * Run `npm install` on each window in the respective integrated terminals.
 * In integrated terminal of iris folder, run `npm start`
 * Similarly, for iris-time and iris-weather folders, run `node bin/run.js` in their respective integrated terminals.
